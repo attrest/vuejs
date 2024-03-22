@@ -7,3 +7,12 @@
     <router-view></router-view>
   </div>
 </template>
+
+<style lang="scss">
+@import "@/styles/variables.scss";
+
+/* 컴포넌트 지역 스타일 작성 */
+body {
+  color: $primary-color;
+}
+</style>
